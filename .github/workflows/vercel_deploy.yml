@@ -31,6 +31,6 @@ jobs:
 
       - name: Deploy to Vercel
         run: |
-          npx vercel deploy
+          npx vercel deploy --yes \
           ${{github.ref == 'refs/heads/master' && '--prod' || ''}} \
           --token=${{secrets.VERCEL_TOKEN}}
