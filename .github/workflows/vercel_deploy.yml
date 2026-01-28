@@ -1,0 +1,36 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - master
+      - stage
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu_latest
+
+    environment: >
+      ${{
+          github.ref == 'refs/heads/master' && 'Production' ||
+          github.ref == 'refs/heads/stage' && 'stage' ||
+          'dev'
+      }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Node setup
+        uses: actions/setup-node@v4
+        with:
+          node-version:18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Deploy to Vercel
+        run: |
+          npx vercel deploy
+          ${{github.ref == 'refs/heads/master' && '--prod' || ''}} \
+          --token=${{secrets.VERCEL_TOKEN}}
