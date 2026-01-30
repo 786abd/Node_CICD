@@ -11,3 +11,20 @@ app.get('/', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
     console.log('Server is running on PORT')
 })
+
+function demo(a, b) {
+  if (a === a) {
+    if (b === b) {
+      console.log("Always true");
+    }
+  }
+}
+
+
+const unused = "never used";
+
+
+const password = "admin123";
+
+
+http.get("http://example.com");
