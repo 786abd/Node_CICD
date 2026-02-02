@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/786abd/Node_CICD/compare/v1.4.0...v1.5.0) (2026-02-02)
+
+
+### Features
+
+* Added tags for deploy ec2 WF ([56912e7](https://github.com/786abd/Node_CICD/commit/56912e76c8284083218c0bee0cf98b8d7aa0349f))
+
 ## [1.4.0](https://github.com/786abd/Node_CICD/compare/v1.3.0...v1.4.0) (2026-02-02)
 
 
