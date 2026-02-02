@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/786abd/Node_CICD/compare/v1.2.0...v1.3.0) (2026-02-02)
+
+
+### Features
+
+* changed secrets for ec2 WF ([23d2c50](https://github.com/786abd/Node_CICD/commit/23d2c500f7f8b591b39d12d7d8cfa724afec7e4c))
+
 ## [1.2.0](https://github.com/786abd/Node_CICD/compare/v1.1.0...v1.2.0) (2026-02-02)
 
 
