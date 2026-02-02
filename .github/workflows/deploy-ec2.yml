@@ -1,8 +1,9 @@
 name: Deploy EC2 WF
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
   deploy:
