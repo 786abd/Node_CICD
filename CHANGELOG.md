@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/786abd/Node_CICD/compare/v1.1.0...v1.2.0) (2026-02-02)
+
+
+### Features
+
+* Added ec2 WF ([7d47623](https://github.com/786abd/Node_CICD/commit/7d4762387b0f248efc9201397dbccec8e1c37c60))
+
 ## [1.1.0](https://github.com/786abd/Node_CICD/compare/v1.0.0...v1.1.0) (2026-02-02)
 
 
