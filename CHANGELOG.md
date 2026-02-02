@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/786abd/Node_CICD/compare/v1.5.0...v1.6.0) (2026-02-02)
+
+
+### Features
+
+* modified the deploy WF ([dec7cd0](https://github.com/786abd/Node_CICD/commit/dec7cd0539fd41c78f7905849314f0136995acb5))
+
 ## [1.5.0](https://github.com/786abd/Node_CICD/compare/v1.4.0...v1.5.0) (2026-02-02)
 
 
