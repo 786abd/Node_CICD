@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/786abd/Node_CICD/compare/v1.0.0...v1.1.0) (2026-02-02)
+
+
+### Features
+
+* Fixed the server error ([f35499e](https://github.com/786abd/Node_CICD/commit/f35499e91329e812f8d7cb61fb14f5887efeca57))
+
 ## 1.0.0 (2026-02-02)
 
 
